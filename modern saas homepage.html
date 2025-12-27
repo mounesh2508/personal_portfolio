@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>shopify – Shopify Homepage</title>
+
+  <style>
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f9fafb;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    header {
+      background: white;
+      padding: 20px 10%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #4f46e5;
+    }
+
+    nav a {
+      margin-left: 20px;
+      font-weight: 500;
+    }
+
+    .btn {
+      background: #4f46e5;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 5px;
+    }
+
+    
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h1 {
+      font-size: 40px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 30px;
+      color: #555;
+    }
+
+    .hero .btn {
+      padding: 12px 30px;
+      font-size: 18px;
+    }
+
+    
+    .features {
+      padding: 60px 10%;
+      text-align: center;
+    }
+
+    .features h2 {
+      margin-bottom: 30px;
+      font-size: 32px;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .feature-card {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+    }
+
+    .feature-card h3 {
+      margin-bottom: 10px;
+      color: #4f46e5;
+    }
+
+    /* ===== Pricing ===== */
+    .pricing {
+      padding: 60px 10%;
+      text-align: center;
+      background: #eef2ff;
+    }
+
+    .pricing h2 {
+      margin-bottom: 30px;
+      font-size: 32px;
+    }
+
+    .pricing-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .price-card {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+    }
+
+    .price {
+      font-size: 28px;
+      color: #4f46e5;
+      margin: 10px 0;
+    }
+
+  
+    footer {
+      background: #111827;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  
+  <header>
+    <div class="logo">Shopify</div>
+    <nav>
+      <a href="#">Features</a>
+      <a href="#">Pricing</a>
+      <a href="#" class="btn">Get Started</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Simple Saas for Growing Teams</h1>
+    <p>Manage your product, users, and analytics from one simple platform.</p>
+    <a href="#" class="btn">Start Free Trial</a>
+  </section>
+
+
+  <section class="features">
+    <h2>Features</h2>
+
+    <div class="feature-grid">
+      <div class="feature-card">
+        <h3>Easy Setup</h3>
+        <p>Start using our platform in just a few minutes.</p>
+      </div>
+
+      <div class="feature-card">
+        <h3>Secure Data</h3>
+        <p>Your data is protected with industry-standard security.</p>
+      </div>
+
+      <div class="feature-card">
+        <h3>Analytics</h3>
+        <p>Understand your users with simple insights.</p>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="pricing">
+    <h2>Pricing</h2>
+
+    <div class="pricing-grid">
+      <div class="price-card">
+        <h3>Free</h3>
+        <p class="price">$0</p>
+        <p>For personal use</p>
+      </div>
+
+      <div class="price-card">
+        <h3>Pro</h3>
+        <p class="price">$19/month</p>
+        <p>Best for startups</p>
+      </div>
+
+      <div class="price-card">
+        <h3>Business</h3>
+        <p class="price">$49/month</p>
+        <p>For growing teams</p>
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <p>© 2025 Shopify. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
